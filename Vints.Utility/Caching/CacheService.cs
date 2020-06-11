@@ -104,7 +104,7 @@
                         return default(TL);
                     }
 
-                    lock (value)
+                    lock (this)
                     {
                         if (!got)
                         {
